@@ -11,7 +11,6 @@ def work_with_chekbox():
         assert chkbox2.is_checked(), "Чекбокс 2 НЕ отмечен!"
 
 
-
         chkbox1.check()
         chkbox2.uncheck()
 
