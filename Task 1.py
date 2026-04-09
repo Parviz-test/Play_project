@@ -1,3 +1,6 @@
+# 🌐26x05: Чекбоксы (Check/Uncheck)
+from playwright.sync_api import sync_playwright
+
 def test_main_page():
     with sync_playwright() as drv:
         browser = drv.chromium.launch(headless=False, slow_mo=1000)
